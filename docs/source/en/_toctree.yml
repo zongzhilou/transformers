@@ -887,6 +887,8 @@
         title: RWKV
       - local: model_doc/seed_oss
         title: Seed-Oss
+      - local: model_doc/shensi
+        title: Shensi
       - local: model_doc/smollm3
         title: SmolLM3
       - local: model_doc/solar_open

@@ -432,6 +432,7 @@ if TYPE_CHECKING:
     from .seggpt import *
     from .sew import *
     from .sew_d import *
+    from .shensi import *
     from .shieldgemma2 import *
     from .siglip import *
     from .siglip2 import *

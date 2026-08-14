@@ -600,6 +600,7 @@ CONFIG_MAPPING_NAMES = OrderedDict(
         ("seggpt", "SegGptConfig"),
         ("sew", "SEWConfig"),
         ("sew-d", "SEWDConfig"),
+        ("shensi", "ShensiConfig"),
         ("shieldgemma2", "ShieldGemma2Config"),
         ("siglip", "SiglipConfig"),
         ("siglip2", "Siglip2Config"),
