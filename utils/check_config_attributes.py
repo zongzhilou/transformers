@@ -232,6 +232,12 @@ SPECIAL_CASES_TO_ALLOW = {
         "num_nextn_predict_layers",
         "router_jitter_noise",
     ],
+    "ShensiConfig": [
+        "index_topk_freq",
+        "linear_lower_bound",
+        "attn_res_block_size",
+        "first_k_dense_replace",
+    ],
     "DeepseekV32Config": ["head_dim", "layer_types", "mlp_bias", "first_k_dense_replace", "n_routed_experts"],
     "GlmMoeDsaConfig": ["head_dim", "layer_types", "mlp_bias", "first_k_dense_replace", "n_routed_experts"],
     "MistralLarge4TextConfig": ["layer_types", "first_k_dense_replace", "no_rope_layer_interval", "kv_source_layers"],
