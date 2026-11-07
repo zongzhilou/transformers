@@ -115,6 +115,7 @@ PRIVATE_MODELS = [
     "MiniCPMV4_6VisionPreTrainedModel",
     "MiniCPMV4_6VisionModel",
     "MiniMaxM3VLVisionModel",
+    "ShensiVLVisionModel",  # Building part of bigger (tested) model.
     "AriaTextForCausalLM",
     "AriaTextModel",
     "Phi4MultimodalAudioModel",

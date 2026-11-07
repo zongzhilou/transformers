@@ -239,6 +239,7 @@ SPECIAL_CASES_TO_ALLOW = {
         "head_dim",  # consumed in __post_init__ to derive qk_nope_head_dim/v_head_dim
     ],
     "DeepseekV32Config": ["head_dim", "layer_types", "mlp_bias", "first_k_dense_replace", "n_routed_experts"],
+    "ShensiVLVisionConfig": ["attn_res_block_size"],
     "GlmMoeDsaConfig": ["head_dim", "layer_types", "mlp_bias", "first_k_dense_replace", "n_routed_experts"],
     "MistralLarge4TextConfig": ["layer_types", "first_k_dense_replace", "kv_source_layers"],
     "EsmFoldConfig": ["esm_ablate_pairwise", "esm_ablate_sequence", "esm_input_dropout", "esm_type"],
